@@ -1,0 +1,10 @@
+drop index idx_item on items;
+drop index idx_date on orders;
+drop index idx_date_amount on orders;
+drop index idx_inventory on inventory;
+drop index idx_inventory1 on inventory;
+drop index idx_item_ingredients on item_ingredients;
+drop index idx_item_addons on item_addons;
+drop index idx_price_with_size on prices;
+drop index idx_price_addon on prices;
+drop index idx_price_without_size on prices;

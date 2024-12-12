@@ -1,0 +1,28 @@
+{
+    "theme_name" : "Serene Lavender",
+    "app_color" : {
+        "dark_one" : "#A9B5FF",
+        "dark_two" : "#B3BEFF",
+        "dark_three" : "#C1CCFE",
+        "dark_four" : "#CCDBFD",
+        "bg_one" : "#D7E3FC",
+        "bg_two" : "#E2EAFC",
+        "bg_three" : "#EDF2FB",
+        "icon_color" : "#7C86CC",
+        "icon_hover" : "#9AA4F0",
+        "icon_pressed" : "#6B78B3",
+        "icon_active" : "#3C56A0",
+        "context_color" : "#A9B5FF",
+        "context_hover" : "#B3BEFF",
+        "context_pressed" : "#8F98EA",
+        "text_title" : "#3C56A0",
+        "text_foreground" : "#6C7BA3",
+        "text_description" : "#A0B4D8",
+        "text_active" : "#4F60B1",
+        "white" : "#EDF2FB",
+        "pink" : "#EBC4E5",
+        "green" : "#C4FFD9",
+        "red" : "#FFB1B1",
+        "yellow" : "#FFF6B1"
+    }
+}

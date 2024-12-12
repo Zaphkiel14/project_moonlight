@@ -1,0 +1,111 @@
+rules
+1. Contribution of each member must amount to at least 20% of the total work required in the project.
+    And the leader of the project must contribution should amount to at least 30% of the total work required in the project.
+    if this condition is not met, each member of the project has the right to remove the underperforming member from the group project 
+    due to a lack of a significant amount of contribution to the overall project to be considered as a member of the group.
+
+2. to calculate the contributions made to the project will be calculated based on the amount of files contributed and the significance of these to the project.
+    hence task will be assign by the leader to the members of the group given sufficient time to complete the task assign,
+    deadlines will be extended once and once only if by the final deadline is reached and the member failed to complete the task assigned the task will be re assigned who the leader deems as capable of completing the failed task.
+    remarks will be made by the leader on the task assigned to each member.
+    
+    e.g. 
+    "successful" (pass the correct task on or before the deadline)
+    "late" (successful but passed the task on the extended deadline)
+    "failed" (failed to submit the correct task before the extended final deadline)
+
+    note: incorrect contributions are not considered as contributions, 
+          since incorrect code is useless code and will only hold back the group,
+          and it would be unfair for those who made effort to submit the correct task,
+          if incorrect contributions are not considered as contributions
+
+    the task assigned will be provided with great detail of explanation to avoid confusion and for ease of understanding
+    members are free to ask for questions in clarifying the instructions
+
+    sufficient information and time is provided failure to comply only means lack of effort to the task
+
+    members can freely volunteer to a task not yet made to earn extra contribution
+
+
+3. respect all members of the group
+
+
+Task assignments 1
+(first come first serve for fairness)
+deadline(Nov. 22 - Nov.25,2024 12:00nn)
+extended deadline (Nov.25,2024 5:00pm)
+1. (Blanker)
+Create stored procedure 
+- search categories
+- search ingredients
+- search addons
+- search items
+- search inventory
+
+And create a python function file for each named
+- search_categories.py
+- search_ingredients.py
+- search_addons.py
+- search_items.py
+- search_inventory.py
+
+2. (Opiniano)
+Database population
+Create whole menu 70+ items
+Search for images of said items
+Create sql file inserting all the menu items using the “procedure-insert_new_item” procedure (menu name,pictures, price, sizes,addons, 12% value added tax,quantity of ingredients need, and addons)
+
+3 (Asildo)
+Create transaction 
+Create ordering transaction to handle the ordering process of the system with isolation level security sql file with save points and rollbacks
+And create a python file creating a module for the transaction
+
+
+Task Assignments 2: 
+(first come first serve for fairness)
+Nov 26 –dec 3 10pm 
+(dako time upaya na tuhay design)
+to do work on the front end concept design in figma (first come first serve)
+ 
+    login page – opiniano 
+    dashboard - admin side  - opiniano 
+       	home – opiniano 
+        sales report – opiniano 
+            sales table - opiniano
+            sales graph - opiniano
+        POS - placeholder (kay bulag la hito na window ha dashboard)
+        Kitchen - placeholder (kay bulag la hito na window ha dashboard)
+        Items - opiniano
+        categories - opiniano
+        addons - opiniano
+        ingredients - opiniano
+        inventory - opiniano
+	feedbacks - placeholder (kay feedback board dapat hito )
+        audit trail - asildo
+	management accounts - blanker
+        settings - blanker
+    	logout -  blanker
+
+    POS - real (kay bulag iya na window kaysa dashboard) - blanker
+    kitchen- real (kay bulag iya na window kaysa dashboard) -blanker
+	
+   self service kiosk - asildo
+   feedback board real - (kay bulag iya na window kaysa dashboard) - blanker
+    
+   receipt for cashier  - asildo
+   temporary receipt for self service kiosk - asildo
+
+   menu banner - asildo
+   menu hand outs - asildo
+
+   requirements:
+        design,
+        explain design
+        explain pano madara
+        kun may mga pop up na dialog iupod design tas kun ano sulod para mga user input 
+    
+Task Assignments 3:
+(deadline dec. 6 to dec 9)
+    blanker: reasigned asildo task 1
+    Opiniano: reasigned asildo task 2
+    asildo: audit trail

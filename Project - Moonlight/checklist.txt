@@ -1,0 +1,113 @@
+finished
+ app.ini = app configuration
+ config.py = configuration readings
+ connect.py = connect to database server (mysql server)
+
+sql files
+    database - schema creation / 
+
+    procedure - create_new_item /
+    procedure - log_in_user /
+    procedure - create_user /
+
+    procedure - search_categories /
+    procedure - search_items /
+    procedure - search_addons /
+    procedure - search_ingredients /
+    procedure - search_inventory /
+
+    view - menu_over_view / 
+    view - sales_today /
+    view - sales_this_week / 
+    view - sales_this_month /
+    view - sales_this_year /
+
+    (procedure - view - sales_for_specified_date) +
+
+    trigger - log_in_tracker / 
+    trigger - low_stock_notifications / 
+    triggers - out_of_stock_notifications / 
+    triggers - user_for_verification
+
+    transaction - item_ordering +
+
+
+ functions
+    menu_insertion.py = insert new item into the database (procedure - insert_new_item) /
+    user_auth.py = verify user if they are allowed to access the system (procedure - log_in_user) / 
+    create_user.py = create new user (procedure - create_user) /
+    
+
+to do
+    integrate stored procedure into python 
+        procedure - log_in_user / user_auth.py
+        procedure - create_user / create new user.py
+        procedure - create_new_item / create new item.py
+
+        procedure - search_categories
+        procedure - search_items
+        procedure - search_addons
+        procedure - search_ingredients
+        procedure - search_inventory
+
+        view - menu_over_view 
+        view - sales_today
+        view - sales_this_week
+        view - sales_this_month
+        view - sales_this_year
+
+        procedure - view - sales_for_specified_day
+        procedure - view - sales_for_specified_week
+        procedure - view - sales_for_specified_month
+        procedure - view - sales_for_specified_year
+
+
+to do create triggers for inventory management
+    
+    create trigger to subtract the stock depending on the quantity needed for the items they ordered  (ingredients and addons) in the inventory table
+    create trigger to auto compute the price when ordering 
+    create trigger to calculate the total price when ordering is completed
+    create trigger to auto calculate the change of the customer when ordering is completed
+    create trigger to auto generate a order receipt that will be printed automatically printed when ordering is completed
+
+    create a python function to create a sales report graph and table data-grid of the views provided
+        view - menu_over_view
+        view - sales_today
+        view - sales_this_week
+        view - sales_this_month
+        view - sales_this_year
+
+        procedure - view - sales_for_specified_day
+        procedure - view - sales_for_specified_week
+        procedure - view - sales_for_specified_month
+        procedure - view - sales_for_specified_year
+
+    create a python function to export the sales report table data-grid and graph into a downloadable pdf 
+
+
+to do work on the front end 
+
+    login page
+    dashboard - admin side 
+        management accounts
+        sales report
+            sales table
+            sales graph
+                printable sales report summary table and graph 
+        POS
+            category side bar
+            order panel
+
+        Kitchen
+        items
+        categories
+        addons
+        ingredients
+        inventory
+        audit trail
+        settings
+    logout
+
+
+        
+
